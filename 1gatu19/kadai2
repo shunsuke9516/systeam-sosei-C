@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+	srand(time(0));
+	int inte, stam, chari;
+	inte + stam + chari == 20;
+	inte = (rand() % 20) + 1;
+	stam = (rand() % 20) + 1;
+	chari = (rand() % 20) + 1;
+
+	if (inte > stam && inte > chari)
+		printf("職業はmage");
+	if (stam > inte && stam > chari)
+		printf("職業はknight");
+	if (chari > inte && chari > stam)
+		printf("職業はthief");
+    return 0;
+}
