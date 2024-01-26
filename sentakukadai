@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<float.h>
+
+int main()
+{
+	//数字の入力を促す
+	int number;
+	printf("数字入力してください:");
+	scanf_s("%d", &number);
+
+	//乗算表を表示する
+	printf("%dの乗算表:\n", number);
+	for (int i = 1; i <= 10; i++)
+	{
+		printf(" % d × %d = % d\n", number, i, number * i);
+	}
+	return 0;
+}
